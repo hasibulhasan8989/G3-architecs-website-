@@ -13,13 +13,13 @@
     color: white;
     padding: 20px 24px;
     border-radius: 8px;
-    background-color:#FF900E;
+    background-color: #FF900E;
     border: none;
     font-size: 1.25rem;
     cursor: pointer;
     font-weight: 600;
-   
-   
+
+
 
 }
 
@@ -85,133 +85,280 @@ nav ul li a {
     font-weight: 400;
 }
 
-.banner-img img{
-  border-radius: 8px;
-  width: 100%;
+.banner-img img {
+    border-radius: 8px;
+    width: 100%;
 
 }
-.banner-img{
+
+.banner-img {
     margin-top: 50px;
-   
+
 }
 
 
-main{
-    max-width:1440px;
+main {
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 70px;
 }
 
-.team{
+.team {
     display: flex;
     align-items: center;
 }
-.team-img{
+
+.team-img {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-   
+
 }
 
-.Quick-list{
+.Quick-list {
     color: #727272;
     font-weight: 500;
     font-size: 2.8rem;
 }
-.of-Our{
+
+.of-Our {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
 }
 
-.Features{
+.Features {
     color: #FF900E;
     font-weight: 700;
     font-size: 2.8rem;
 }
 
-.feature-content h2{
-    max-width:468px;;
+.feature-content h2 {
+    max-width: 468px;
+    ;
 }
 
-.feature-content p{
+.feature-content p {
     font-size: 1rem;
     color: #727272;
     font-weight: 400;
-    max-width:  537px;
+    max-width: 537px;
 }
 
-.feature-content{
-  padding-left: 78px;
-  padding-right: 78px;
+.feature-content {
+    padding-left: 78px;
+    padding-right: 78px;
 }
 
 
-.card{
+.card {
     border-radius: 8px;
-border: 1px solid #FF900E;
-text-align: center;
-padding: 30px 40px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 40px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
-.card h1{
+section {
+    margin-bottom: 130px;
+}
+
+.card h1 {
     color: #424242;
     font-size: 2rem;
     margin-top: 09px;
     margin-bottom: 09px;
 
 }
-.card p{
+
+.card p {
 
     color: #727272;
     font-weight: 600;
     font-size: 1.2rem;
 }
 
-.some-fact h2{
-color: #131313;
-font-size: 2.8rem;
-font-weight: 700;
+.some-fact h2 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
-.some-fact p{
+.some-fact p {
     color: #727272;
     max-width: 542px;
     font-size: 1rem;
 }
 
+.spons-img {
+    display: flex;
+
+    justify-content: space-evenly;
 
 
 
-@media screen and (max-width:576px){
-    nav,.team{
-     flex-direction: column;
+
+}
+
+
+.Sponspors h1 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.Sponspors p {
+
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.retry {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 24px;
+
+
+}
+
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+
+    margin: 130px auto;
+    text-align: center;
+    padding: 20px 310px;
+
+
+}
+
+footer p {
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.box {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    margin-bottom: 21px;
+}
+
+.love-enjoy {
+    display: flex;
+    gap: 100px;
+
+}
+
+.box h4 {
+    color: #131313;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.koro,
+.box p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.dhoro {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid orange;
+    padding-left: 20px;
+}
+
+.exp{
+    background-color: #FF900E;
+    color: white;
+    width: 200px;
+height: 150px;
+text-align: center;
+border-radius: 10px;
+padding-top: 10px;
+position: relative;
+bottom: 40px;
+right: 50px;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    nav,
+    .team {
+        flex-direction: column;
     }
- 
-    header{
-     padding: 20px;
+
+    header {
+        padding: 20px;
     }
 
-    .team-img{
+    .team-img {
         grid-template-columns: 1fr;
     }
 
-    .feature-content ,.card-container,.some-fact{
+    .feature-content,
+    .card-container,
+    .some-fact,
+    .retry,.love-enjoy{
         padding-left: 20px;
         padding-right: 20px;
     }
 
 
-    .card-container{
+    .card-container,.love-enjoy{
         flex-direction: column;
-       gap: 20px;
+        gap: 20px;
     }
- 
- }
- 
+
+    .spons-img {
+        flex-direction: column;
+        width: 153.333px;
+
+        margin-left: 35%;
+        gap: 25px;
+
+
+    }
+
+    footer {
+        padding: 10px 10px;
+
+        margin: 30px auto;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+    .hot-pic img{
+        width: 90%;
+
+    }
+    .exp{
+        top:30px;
+        left: 20%;
+       
+    }
+
+
+}
