@@ -95,14 +95,80 @@ nav ul li a {
    
 }
 
-@media screen and (max-width:576px){
-   nav{
-    flex-direction: column;
-   }
 
-   header{
-    padding: 20px;
-   }
-
-
+main{
+    max-width:1440px;
+    margin: 0 auto;
+    margin-top: 70px;
 }
+
+.team{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+   
+}
+
+.Quick-list{
+    color: #727272;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+.of-Our{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.Features{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.feature-content h2{
+    max-width:468px;;
+}
+
+.feature-content p{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 400;
+    max-width:  537px;
+}
+
+.feature-content{
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
+section{
+    
+}
+
+@media screen and (max-width:576px){
+    nav,.team{
+     flex-direction: column;
+    }
+ 
+    header{
+     padding: 20px;
+    }
+
+    .team-img{
+        grid-template-columns: 1fr;
+    }
+
+    ..feature-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+ 
+ 
+ }
+ 
