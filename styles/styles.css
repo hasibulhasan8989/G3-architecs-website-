@@ -15,7 +15,9 @@
     border-radius: 8px;
     background-color:#FF900E;
     border: none;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
    
    
 
@@ -74,17 +76,33 @@ nav ul li a {
 .banner-title {
     font-size: 4rem;
     color: #131313;
+    font-weight: 700;
 }
 
 .title-dis {
     color: #727272;
     font-size: 1rem;
+    font-weight: 400;
 }
 
 .banner-img img{
   border-radius: 8px;
+  width: 100%;
 
 }
 .banner-img{
     margin-top: 50px;
+   
+}
+
+@media screen and (max-width:576px){
+   nav{
+    flex-direction: column;
+   }
+
+   header{
+    padding: 20px;
+   }
+
+
 }
